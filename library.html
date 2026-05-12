@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Библиотека</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Вавилонская библиотека</h1>
+    </div>
+</header>
+
+<main class="container">
+    <section>
+        <h2>Получение книги</h2>
+
+        <p>
+            Введите длину книги в символах:
+        </p>
+
+        <input type="number" id="lengthInput" value="300" min="1">
+
+        <button id="takeBookButton">Взять книгу</button>
+    </section>
+
+    <section>
+        <h2 id="bookTitle">Книга ещё не взята</h2>
+
+        <p id="bookInfo">Введите длину и нажмите кнопку.</p>
+
+        <div id="bookText"></div>
+    </section>
+
+    <p>
+        <a href="index.html">Вернуться на главную</a>
+    </p>
+</main>
+
+<footer>
+    <div class="container">
+        <p>Исходный код проекта <a href="https://github.com/1mThere/Vavilon" target="_blank">на GitHub</a></p>
+        <p>Источник: <a href="https://ru.wikipedia.org/wiki/Вавилонская_библиотека" target="_blank">Википедия</a></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
